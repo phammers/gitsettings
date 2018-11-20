@@ -1,0 +1,11 @@
+[alias]
+	co = checkout
+	cob = checkout -b
+	cm = !git add -A && git commit -m
+	lg = "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+	st = status
+	cp = cherry-pick
+	cma = commit -a # Commit all tracked.
+	bl = branch -l # List all local branches.
+	br = branch -r # List all remote branches.
+	blr = branch -a # Show local and remote branches.
